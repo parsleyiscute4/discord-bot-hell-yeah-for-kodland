@@ -1,4 +1,4 @@
-token = 'MTI4MzQ1NTI1NjY1NDUxNjI2Ng.GC9VjP.Tv7LWlspooyqLdkXeZCT2m2MkOo9VmsA2VHdw8'
+import config
 import discord
 import random
 
@@ -60,4 +60,4 @@ async def on_message(message):
     else:
         await message.channel.send(message.content)
 
-client.run(token)
+client.run(config.token)
